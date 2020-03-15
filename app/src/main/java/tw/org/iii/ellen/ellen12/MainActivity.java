@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         new Thread(){
             @Override
             public void run() {
-                receiveUDP() ;
+                receiveUDP() ; 
             }
         }.start();
     }
